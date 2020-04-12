@@ -1,0 +1,29 @@
+.cl-1-cl {
+  background-color: inherit;
+}
+.cl-0-cl {
+  background-color: gray;
+}
+
+.header-admin {
+  min-height: 100px;
+}
+
+.main-container {
+  background-color: rgb(244, 244, 244);
+  padding: 3%;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  background-color: #ffffff;
+}
+
+.form-control {
+  background-color: #ffffff;
+}
+
+.footer-admin {
+  min-height: 100px;
+  margin-top: 100px;
+}

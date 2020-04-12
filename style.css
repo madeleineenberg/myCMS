@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  font-family: "Inconsolata", monospace;
+}
+
+.header-blogg {
+  background-image: url("./images/thomas-verbruggen-5A06OWU6Wuc-unsplash\ \(1\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 9px 10px -2px rgba(230, 227, 230, 1);
+  margin-bottom: 100px;
+}
+
+.header-head {
+  font-family: "Rubik", sans-serif;
+  font-size: 80px;
+  color: rgb(46, 45, 45);
+  margin-top: -80px;
+}
+
+.header-text {
+  margin-top: -20px;
+}
+
+.top-nav {
+  background-color: rgba(63, 62, 62, 0.317);
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.login {
+  text-decoration: none;
+  color: rgb(46, 45, 45);
+  margin-right: 10px;
+}
+
+.container_posts {
+  margin: 0 20% 0 20%;
+}
+
+.blog_post-container {
+  padding: 5%;
+  margin-bottom: 50px;
+  border-bottom: 8px dotted rgba(24, 225, 124, 0.139);
+}
+
+.post-title {
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+.post-subtitle {
+  text-align: center;
+}
+
+.img-container {
+  margin: 0 10% 0 10%;
+  padding: 20px;
+}
+
+.link-container {
+  padding: 20px;
+  margin: 0 10% 0 10%;
+}
+
+.blog-img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog_post-text {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.footer-blog {
+  min-height: 150px;
+  background-color: rgb(33, 32, 32);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 100px;
+}
